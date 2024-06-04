@@ -8,7 +8,7 @@ Binary representation of 6 is 110 , so has 2 set bits
 
 input n=13
 output=3
-Binary representation of 6 is 1101 , so has 3 set bits
+Binary representation of 13 is 1101 , so has 3 set bits
 
 
 1)Simple approach
