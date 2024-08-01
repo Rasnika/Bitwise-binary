@@ -1,0 +1,23 @@
+2 010  here first set bit from right is at 2 nd place 
+3 011  here first set bit from right is at 1st place
+4 100 here first set bit from right is at 3rd place
+we have to find how many times we have to count from right hand side to find the first bit
+
+
+int findPosition(int n)
+{
+if(!n)
+return -1;
+
+int count=0;
+while(n)
+{
+++count;
+if(n&1)
+{
+n=n>>1;
+break;
+}
+n=n>>1;
+}
+cout<<count<<endl;
