@@ -13,3 +13,21 @@ if(set)
 count++
 x=x/2;
 }
+
+
+
+another way
+x=3
+while(x)
+{
+if(x&1)
+count++;
+x=x>>1;
+}
+
+
+
+x=011
+after right shift by 1
+x=001
+
